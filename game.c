@@ -2,7 +2,7 @@
 #include <stdio.h>
 // #include <math.h>
 #include <time.h>
-char* strings[]={"apple","ball","cat","dog"};
+
 int main()
 {
   int rand() ,game,guess,attempts = 0,count,srand();
@@ -11,7 +11,7 @@ int main()
   game = rand() % 100 + 1;
   printf("lets paly a game\n");
   printf("guess the number\n", guess);
-  printf("guess the number in 10 attempts to win jackpot\n");
+  
   scanf("%d", &guess);
   while (guess != game)
   {
